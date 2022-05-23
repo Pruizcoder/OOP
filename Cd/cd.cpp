@@ -1,12 +1,8 @@
-#ifndef CD_H
-#define CD_H
-class cd
+#include "cd.h"
+#include <iostream>
+using namespace std;
+
+float cd::setPrezzo()
 {
-private:
-	float prezzo;
-	int nBrani;
-	string titolo;
-public:
-	float getPrezzo();
-};
-#endif //CD_H
+	return prezzo;
+}
