@@ -20,9 +20,4 @@ public:
 	string get_cf();
 };
 
-get_nome()
-{
-
-}
-
 #endif //PAZIENTE_H 
